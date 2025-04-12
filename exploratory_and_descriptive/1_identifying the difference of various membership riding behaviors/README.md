@@ -1,7 +1,7 @@
 以下是整份資料處理與分析的摘要說明：
 該資料集包含了某城市的共享單車騎乘記錄，主要目的是分析會員與非會員在騎乘行為上的差異，並提出行銷建議以提升會員轉換率。資料集包含了以下欄位：
 
-此資料來源來自 Coursera [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/google-certificates/advanced-data-analytics-certificate?utm_campaign=sou--google__med--organicsearch__cam--gwgsite__con--null__ter--null&utm_medium=institutions&utm_source=google#outcomes)課程中的雲端數據，可以再Dataset找到。
+此分析專案數據在Coursera [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone/home) 課程提到，資料下載點在 [這裡](https://divvy-tripdata.s3.amazonaws.com/index.html)，包含了多個 CSV 檔案，這些檔案記錄了某城市的共享單車騎乘數據。
 
 ---
 
@@ -10,6 +10,7 @@
 #### **1. 資料讀取與初步檢查**
 - 匯入多個 CSV 檔案，檢查欄位一致性，確保所有檔案的結構相同。
 - 合併所有檔案為一個 DataFrame，並儲存為 `df_combined.csv`。
+- 這個版本，我新增了抽樣環節，不然數據太大無法push到github上。
 
 ---
 
