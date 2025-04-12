@@ -1,0 +1,13 @@
+# 內建
+pandas 
+numpy
+matplotlib
+
+# 第三方套件
+python-docx
+fastapi
+pydantic
+joblib
+scikit-learn
+seaborn
+uvicorn    # 用於運行 FastAPI 應用
